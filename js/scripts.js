@@ -1,16 +1,16 @@
 $(document).ready (function(){
 
-  $("select#favTopic").change(function(event) {
-    var topic = parseInt($("#favTopic").val());
+  $("select#animal").change(function(event) {
+    var animal = parseInt($("#animal").val());
   //  event.preventDefault();
     $("#followUp2a").hide();
     $("#followUp2b").hide();
     $("#followUp2c").hide();
 
-    if (topic === 1 ) {
+    if (animal === 1 ) {
       $("#followUp2a").show();
     }
-    else if (topic === 2 ) {
+    else if (animal === 2 ) {
       $("#followUp2b").show();
     }
     else  {
@@ -18,12 +18,12 @@ $(document).ready (function(){
     }
   });
 
-  $("select#favArt").change(function(event) {
-    var artist = parseInt($("#favArt").val());
+  $("select#items").change(function(event) {
+    var items = parseInt($("#items").val());
   //  event.preventDefault();
     // $("#followUp3").hide();
 
-    if (artist >= 0 ) {
+    if (items >= 0 ) {
       $("#followUp3").show();
     }
     else  {
@@ -31,12 +31,12 @@ $(document).ready (function(){
     }
   });
 
-  $("select#favTech").change(function(event) {
-    var tech = parseInt($("#favTech").val());
+  $("select#activity").change(function(event) {
+    var activity = parseInt($("#activity").val());
   //  event.preventDefault();
     // $("#followUp3").hide();
 
-    if (tech >= 0 ) {
+    if (activity >= 0 ) {
       $("#followUp3").show();
     }
     else  {
@@ -44,10 +44,10 @@ $(document).ready (function(){
     }
   });
 
-  $("select#favFit").change(function(event) {
-    var fit = parseInt($("#favFit").val());
+  $("select#show").change(function(event) {
+    var show = parseInt($("#show").val());
 //    event.preventDefault();
-    if (fit >= 0 ) {
+    if (show >= 0 ) {
       $("#followUp3").show();
     }
     else  {
@@ -61,8 +61,8 @@ $(document).ready (function(){
       $("#result").show();
   });
 
-  $("select#favTopic").change(function(event) {
-    var results = parseInt($("#favTopic").val());
+  $("select#animal").change(function(event) {
+    var results = parseInt($("#animal").val());
   //  event.preventDefault();
     if (results === 1 ) {
       $("#result1").show();
@@ -73,6 +73,7 @@ $(document).ready (function(){
       else {
         $("#result3").show();
       }
+      
   });
 
 

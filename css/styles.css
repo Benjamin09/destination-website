@@ -30,27 +30,22 @@
 #result3 {
   display: none;
 }
+
 title {
-  text-align: center;
+    text-align: center;
     font-family: sans-serif;
     padding-base-vertical:6px;
     color:#CEECF5
 
 }
+body{
 
-.img {
-    width: 100px;
-    height: 100px;
-    border: 3px solid #73AD21;
-  }
-  @import url(http://fonts.googleapis.com/css?family=Varela+Round);
-
-/*html, body { background: #333 url("http://gifake.net/post/23221461558/bee-at-the-beach-1950"); }*/
-body {
-background-image: url("img_beach.giphy.gif")
-background-color: #cccccc;
+    display:block;
+    align-items: center;
 }
-.slides {
+
+
+.slide {
     padding: 0;
     width: 609px;
     height: 420px;
@@ -59,7 +54,7 @@ background-color: #cccccc;
     position: relative;
 }
 
-.slides * {
+.slide * {
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
@@ -68,12 +63,12 @@ background-color: #cccccc;
     -webkit-touch-callout: none;
 }
 
-.slides input { display: none; }
+.slide input { display: none; }
 
 .slide-container { display: block; }
 
 .slide {
-    top: 0;
+    top:500px;
     opacity: 0;
     width: 609px;
     height: 420px;
@@ -92,7 +87,7 @@ background-color: #cccccc;
 
 .nav label {
     width: 200px;
-    height: 100%;
+    height: 5%;
     display: none;
     position: absolute;
 
@@ -159,4 +154,7 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
+}
+.container {
+  width100%;
 }

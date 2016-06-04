@@ -44,11 +44,15 @@ body{
     align-items: center;
 }
 
+img{
+  top:800px;
+  border-radius: 8px;
+}
 
 .slide {
     padding: 0;
     width: 609px;
-    height: 420px;
+    height: 200px;
     display: block;
     margin: 0 auto;
     position: relative;

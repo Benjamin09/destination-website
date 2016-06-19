@@ -2,11 +2,11 @@ $(document).ready (function(){
 
   $("select#animal").change(function(event) {
     var animal = parseInt($("#animal").val());
-  //  event.preventDefault();
+
     $("#followUp2a").hide();
     $("#followUp2b").hide();
     $("#followUp2c").hide();
-
+    
     if (animal === 1 ) {
       $("#followUp2a").show();
     }
@@ -20,8 +20,6 @@ $(document).ready (function(){
 
   $("select#items").change(function(event) {
     var items = parseInt($("#items").val());
-  //  event.preventDefault();
-    // $("#followUp3").hide();
 
     if (items >= 0 ) {
       $("#followUp3").show();
@@ -34,7 +32,7 @@ $(document).ready (function(){
   $("select#activity").change(function(event) {
     var activity = parseInt($("#activity").val());
   //  event.preventDefault();
-    // $("#followUp3").hide();
+    $("#followUp3").hide();
 
     if (activity >= 0 ) {
       $("#followUp3").show();
@@ -46,7 +44,6 @@ $(document).ready (function(){
 
   $("select#show").change(function(event) {
     var show = parseInt($("#show").val());
-//    event.preventDefault();
     if (show >= 0 ) {
       $("#followUp3").show();
     }

@@ -1,87 +1,4 @@
 
-title {
-    text-align: center;
-    font-family: sans-serif;
-    padding-base-vertical:6px;
-    color:#CEECF5
-
-}
-
-
-h1{
-  text-align: center;
-  font-family: sans-serif;
-  padding-base-vertical:6px;
-  color:#6824A1
-  /* offset-x | offset-y | blur-radius | color */
-
-}
-
-h2{
-
-  text-align: center;
-  font-family: sans-serif;
-  padding-base-vertical:6px;
-  color:#FE2E2E
-
-}
-
-h3{
-  text-align: center;
-  font-family: sans-serif;
-  padding-base-vertical:6px;
-  color:#0B0B3B
-
-}
-
-body{
-
-
-    align-items: center;
-}
-
-p{
-  text-align: center;
-  font-family: sans-serif;
-  padding-base-vertical:6px;
-  color:#FE2E2E
-
-}
-
-img{
-  top:800px;
-  border-radius: 8px;
-
-}
-
-i{
-  position: none relative;
-  float:right;
-  height: 500px;
-
-}
-
-  <style style="text/css">
-  body{
-
-    background-color:tan
-  }
-
-  body {
-
-    background-image: url("http://touristidea.com/wp-content/uploads/2015/09/The-Best-Destination-Tourist-Bahamas-Beach.jpg");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-  }
-  </style>
-
-  </body>
-  </html>
-
-  <i><img cls="img" src= "img/beach.giphy.gif" alt="beach"></img><i>
-/*drop down question menu*/
-
-
 #followUp2a {
   display: none;
 }
@@ -114,87 +31,78 @@ i{
   display: none;
 }
 
-/*slide show */
-.slide {
-    padding: 0;
-    width: 609px;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-}
-
-.slide * {
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
-
-.slide input { display: none; }
-
-.slide-container { display: block; }
-
-.slide  {position:pull right
-
-    top: 650px;
-    opacity: 0;
-    width: 609px;
-    height: 420px;
-    display: block;
-    position: absolute;
-
-    transform: scale(0);
-
-    transition: all .7s ease-in-out;
-}
-
-.slide img {
-    width: 100%;
-    height: 100%;
-}
-
-.nav label {
-    width: 200px;
-    height: 5%;
-    display: none;
-    position: absolute;
-
-	  opacity: 0;
-    z-index: 9;
-    cursor: pointer;
-
-    transition: opacity .2s;
-
-    color: #FFF;
-    font-size: 156pt;
+title {
     text-align: center;
-    line-height: 380px;
-    font-family: "Varela Round", sans-serif;
-    background-color: rgba(255, 255, 255, .3);
-    text-shadow: 0px 0px 15px rgb(119, 119, 119);
-}
-
-    .slide:hover + .nav label { opacity: 0.5; }
-
-    .nav label:hover { opacity: 1; }
-
-    .nav .next { right: 0; }
-
-    input:checked + .slide-container  .slide {
-        opacity: 1;
-
-        transform: scale(1);
-
-        transition: opacity 1s ease-in-out;
-    }
-
-    input:checked + .slide-container .nav label { display: block; }
-}
+    font-family: sans-serif;
+    padding-base-vertical:6px;
+    text-color:#D4B890
 
 }
-.container {
-  width100%;
+
+
+h1{
+  text-align: center;
+  font-family: sans-serif;
+  padding-base-vertical:6px;
+  color:#6824A1
+  /* offset-x | offset-y | blur-radius | color */
+
 }
+
+h2{
+
+  text-align: center;
+  font-family: sans-serif;
+  padding-base-vertical:6px;
+  color:#D4B890
+
+}
+
+h3{
+  text-align: center;
+  font-family: sans-serif;
+  padding-base-vertical:6px;
+  color:#0B0B3B
+
+}
+
+h4{
+  text-align: center;
+  font-family: sans-serif;
+  padding-base-vertical:6px;
+  color:#0B0B3B
+
+}
+body{
+
+
+    align-items: center;
+}
+
+
+img{
+  top:800px;
+  border-radius: 8px;
+
+}
+
+i{
+  position: none relative;
+  float:right;
+  height: 500px;
+
+}
+
+  body{
+
+    background-color:tan
+  }
+
+  body {
+
+    background-image: url("http://touristidea.com/wp-content/uploads/2015/09/The-Best-Destination-Tourist-Bahamas-Beach.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  
